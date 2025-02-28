@@ -12,7 +12,7 @@ int main() {
     // Definição de variáveis 2025/02/27 ▼
     int iCarta_a = 1, iCarta_b = 2;
     char sEstado = 'A', rEstado = 'B';
-    char codCarta[2] = "A01";
+    char codCarta_1[2] = "A01", codCarta_2[2] = "B01";
     char nomeCidade[30];
     int iPopulacao;
     float areaTerritorio;
@@ -42,12 +42,12 @@ int main() {
     // Exibindo dados da carta 1 ▼
     printf("Carta........................: %d\n", iCarta_a);
     printf("Estado.......................: %c\n", sEstado);
-    printf("Código.......................: %s\n", codCarta);
+    printf("Código.......................: %s\n", codCarta_1);
     printf("Nome da cidade...............: %s\n", nomeCidade);
     printf("População....................: %d\n", iPopulacao);
     printf("Área.........................: %f\n", areaTerritorio);
     printf("PIB..........................: %f\n", fPIB);
-    printf("Número de Pontos Turísticos..: %d\n\n\n", numPTuristicos);
+    printf("Número de Pontos Turísticos..: %d\n", numPTuristicos);
 
     // Inserindo dados da Carta 2
     printf("Digite o nome da 1ª cidade:\n");
@@ -59,13 +59,13 @@ int main() {
     printf("Digite o PIB da cidade:\n");
     scanf("%f", &fPIB);
     printf("Digite o número de pontos turísticos:\n");
-    scanf("%d\n\n", &numPTuristicos);
+    scanf("%d", &numPTuristicos);
 
 
     // Exibindo dados Carta 2 ▼
     printf("Carta........................: %d\n", iCarta_b);
     printf("Estado.......................: %c\n", rEstado);
-    printf("Código.......................: %s\n", codCarta);
+    printf("Código.......................: %s\n", codCarta_2);
     printf("Nome da cidade...............: %s\n", nomeCidade);
     printf("População....................: %d\n", iPopulacao);
     printf("Área.........................: %f\n", areaTerritorio);
