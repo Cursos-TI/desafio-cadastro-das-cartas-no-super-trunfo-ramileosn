@@ -41,7 +41,7 @@ int main() {
     scanf("%d", &numPTuristicos);
     // Exibindo dados da carta A01 ▼
     printf("Carta %d", iCarta);
-    printf("Estado: %s", sEstado);
+    printf("Estado: %c", sEstado);
     printf("Código: %s", codCarta);
     printf("Nome da cidade: %s", nomeCidade);
     printf("População: %d", iPopulacao);
