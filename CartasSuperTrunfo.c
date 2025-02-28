@@ -12,7 +12,7 @@ int main() {
     // Definição de variáveis 2025/02/27 ▼
     int iCarta_a = 1, iCarta_b = 2;
     char sEstado = 'A', rEstado = 'B';
-    char codCarta_1[2] = "A01", codCarta_2[2] = "B01";
+    char codCarta_1[5] = "A01", codCarta_2[5] = "B01";
     char nomeCidade[30];
     int iPopulacao;
     float areaTerritorio;
@@ -37,16 +37,16 @@ int main() {
     printf("Digite o PIB da cidade:\n");
     scanf("%f", &fPIB);
     printf("Digite o número de pontos turísticos:\n");
-    scanf("%d\n", &numPTuristicos);
+    scanf("%d", &numPTuristicos);
 
-    // Exibindo dados da carta 1 ▼
+    // Exibindo dados da carta 2 ▼
     printf("Carta........................: %d\n", iCarta_a);
     printf("Estado.......................: %c\n", sEstado);
     printf("Código.......................: %s\n", codCarta_1);
     printf("Nome da cidade...............: %s\n", nomeCidade);
     printf("População....................: %d\n", iPopulacao);
-    printf("Área.........................: %f\n", areaTerritorio);
-    printf("PIB..........................: %f\n", fPIB);
+    printf("Área.........................: %.2f\n", areaTerritorio);
+    printf("PIB..........................: %.2f\n", fPIB);
     printf("Número de Pontos Turísticos..: %d\n", numPTuristicos);
 
     // Inserindo dados da Carta 2
@@ -68,9 +68,11 @@ int main() {
     printf("Código.......................: %s\n", codCarta_2);
     printf("Nome da cidade...............: %s\n", nomeCidade);
     printf("População....................: %d\n", iPopulacao);
-    printf("Área.........................: %f\n", areaTerritorio);
-    printf("PIB..........................: %f\n", fPIB);
+    printf("Área.........................: %.2f\n", areaTerritorio);
+    printf("PIB..........................: %.2f\n", fPIB);
     printf("Número de Pontos Turísticos..: %d\n", numPTuristicos);
 
     return 0;
+
+
 }
